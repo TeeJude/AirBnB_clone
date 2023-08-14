@@ -36,7 +36,7 @@ class HBNBCommand(cmd.Cmd):
 
     def do_quit(self, line):
         """Quit command to exit the program"""
-        print("Good Bye!")
+        print("Goodbye! Hope to see you again, soon.")
         return True
 
     def help_quit(self):
@@ -220,3 +220,4 @@ class HBNBCommand(cmd.Cmd):
 
 
 if __name__ == '__main__':
+    HBNBCommand().cmdloop()
