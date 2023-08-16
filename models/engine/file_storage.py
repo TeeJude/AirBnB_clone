@@ -23,7 +23,7 @@ class_dict = {
     "Review": Review,
     "State": State
 }
-# Filestorage == type(self)
+# FileStorage == type(self)
 
 
 class FileStorage:
